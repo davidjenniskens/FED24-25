@@ -2,6 +2,10 @@
     --white: #ffffff
 }
 
+header{
+    background-color: var(--white);
+    opacity: 60%;
+}
 body{
     background-image: url(images/background.jpeg);
     background-position: center;
@@ -10,12 +14,17 @@ body{
     width: 100%;
     height: 100vh;
     font-family: Futura Condensed Extra Bold, sans-serif;
-    font-weight: 900;
 }
 
 h2, h3, h4, li{
     text-transform: uppercase;
+    font-weight: 900;
 }
+
+p{
+    font-family: 'Gilmer','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 ul{
     display:flex;
     align-items: end;
